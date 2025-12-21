@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="w-screen bg-zinc-700 text-white p-5 flex justify-between fixed top-0 font-bold">
+    <nav className="w-screen bg-zinc-700 text-white p-5 flex justify-between sticky top-0 font-bold">
       <ul className="flex gap-6">
         <li>Raihan</li>
       </ul>
