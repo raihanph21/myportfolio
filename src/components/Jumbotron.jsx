@@ -2,7 +2,7 @@ import imageJumbotron from "../assets/RMI_0895.JPG";
 
 function Jumbotron() {
   return (
-    <div className="flex m-auto mt-35 w-4xl">
+    <div className="flex m-auto mt-35 w-3xl">
       <img
         src={imageJumbotron}
         alt="gambar profil"

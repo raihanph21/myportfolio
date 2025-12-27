@@ -1,12 +1,14 @@
 import "./index.css";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
+import Projects from "./components/Projects";
 
 function App() {
   return (
     <>
       <Navbar />
       <Jumbotron />
+      <Projects />
       {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
