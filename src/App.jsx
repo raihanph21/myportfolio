@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Jumbotron />
       <Projects />
       <Skills />
+      <Footer />
       {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

@@ -6,9 +6,6 @@ function Navbar() {
       </ul>
       <ul className="flex gap-6 ml-auto me-3">
         <li>
-          <a href="#">Me</a>
-        </li>
-        <li>
           <a href="#">Projects</a>
         </li>
         <li>
