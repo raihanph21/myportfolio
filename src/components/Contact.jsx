@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="flex justify-around bg-zinc-950 pt-10">
+    <div id="contact" className="flex justify-around bg-zinc-950 pt-10">
       <div>
         <h4>Get In Touch</h4>
         <ul>

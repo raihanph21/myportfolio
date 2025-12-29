@@ -2,7 +2,7 @@ import ProjectsCard from "./ProjectsCard";
 
 function Projects() {
   return (
-    <div className="mt-40  bg-zinc-950 p-5">
+    <div id="projects" className="mt-40  bg-zinc-950 p-5">
       <h3 className="text-center font-bold text-2xl">My Projects</h3>
       <ProjectsCard />
       <ProjectsCard />

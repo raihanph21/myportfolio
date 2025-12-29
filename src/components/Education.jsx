@@ -1,6 +1,6 @@
 function Education() {
   return (
-    <div className="flex justify-around p-5">
+    <div id="education" className="flex justify-around p-5">
       <div>
         <h4>My Education</h4>
         <ul>

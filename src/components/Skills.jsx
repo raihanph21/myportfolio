@@ -14,7 +14,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 function Skills() {
   return (
-    <div className="flex flex-col items-center mt-50 mb-20">
+    <div id="skills" className="flex flex-col items-center mt-50 mb-20">
       <h3 className="font-bold text-2xl mb-5">My Expertise</h3>
       <div className="grid gap-10 grid-cols-4">
         <FaHtml5 size={100} />
