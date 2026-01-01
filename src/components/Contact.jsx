@@ -1,21 +1,30 @@
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
+
 function Contact() {
   return (
     <div id="contact" className="flex justify-around bg-zinc-950 pt-10">
       <div>
-        <h4>Get In Touch</h4>
-        <ul>
+        <h4 className="text-2xl font-bold mb-5">Get In Touch</h4>
+        <ul className="grid gap-2">
           <li>
-            <a href="">Github</a>
+            <a href="">
+              <FaGithub size={20} />
+            </a>
           </li>
           <li>
-            <a href="">LinkedIn</a>
+            <a href="">
+              <FaLinkedin size={20} />
+            </a>
           </li>
           <li>
-            <a href="">Email</a>
+            <a href="">
+              <MdOutlineEmail size={20} />
+            </a>
           </li>
         </ul>
       </div>
-      <form className="flex flex-col gap-5">
+      <form className="flex flex-col gap-5 [&_input]:border [&_input]:rounded-sm [&_input]:p-2">
         <input type="text" name="Name" placeholder="Name..." />
         <input type="Email" name="Email" placeholder="example@gmail.com" />
         <input type="text" name="Message" placeholder="Type your message..." />
