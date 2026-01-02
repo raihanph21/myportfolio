@@ -18,14 +18,14 @@ function Skills() {
       id="skills"
       className="flex justify-between items-center mt-20 mb-20 p-20"
     >
-      <div>
+      <div className="w-xl">
         <h3 className="font-bold text-2xl mb-5">My Tools and Skills</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
           blanditiis laborum ipsam placeat, similique neque.
         </p>
       </div>
-      <div className="grid gap-10 grid-cols-5">
+      <div className="grid gap-10 grid-cols-5 w-2xl">
         <FaHtml5 size={100} />
         <FaCss3Alt size={100} />
         <FaJsSquare size={100} />

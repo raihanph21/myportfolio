@@ -5,7 +5,7 @@ function Education() {
       className="flex justify-between items-center bg-zinc-900 p-20"
     >
       <div>
-        <h3 className="text-2xl font-bold mb-5">My Education</h3>
+        <h3 className="text-2xl font-bold mb-5 w-xl">My Education</h3>
         <ul>
           <li>Universitas Islam Indonesia</li>
           <li>Bachelor of Infomatics </li>
@@ -13,7 +13,7 @@ function Education() {
           <li>GPA: 3.60</li>
         </ul>
       </div>
-      <div className="w-2xl grid gap-10">
+      <div className="w-2xl grid gap-10 text-justify">
         <p>
           I graduated from Universitas Islam Indonesia with a degree in
           Informatics. During my studies, I built a strong foundation in web
