@@ -1,11 +1,10 @@
-function ProjectsCard() {
+function ProjectsCard({ name, deskripsi, img, isiButton, alt }) {
   return (
     <div className="flex flex-col text-center mx-auto mt-5 mb-5 rounded-xl border border-white w-xl">
-      <h2 className="font-bold">Title</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
-        dolorem vitae! Earum reiciendis debitis asperiores.
-      </p>
+      <img src={img} alt={alt} />
+      <h2 className="font-bold">{name}</h2>
+      <p>{deskripsi}</p>
+      <button>{isiButton}</button>
     </div>
   );
 }
