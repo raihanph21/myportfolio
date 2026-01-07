@@ -1,4 +1,4 @@
-const listNav = ["projects", "skills", "education", "resume", "contact"];
+const listNav = ["projects", "skills", "education", "contact"];
 
 function Navbar() {
   const listNavKanan = listNav.map((x) => (
