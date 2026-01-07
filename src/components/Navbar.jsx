@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <nav
       id="nav"
-      className="w-full bg-zinc-900 text-white p-5 flex justify-between sticky top-0 font-bold"
+      className="w-full bg-zinc-900 text-white p-5 flex justify-between sticky top-0 font-bold z-1"
     >
       <ul className="flex gap-6 cursor-pointer">
         <li onClick={() => window.scrollTo(0, 0)}>Raihan</li>
