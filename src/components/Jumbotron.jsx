@@ -1,4 +1,5 @@
 import imageJumbotron from "../assets/RMI_0895.JPG";
+import cv from "../assets/CV.pdf";
 
 function Jumbotron() {
   return (
@@ -17,13 +18,11 @@ function Jumbotron() {
           continuing to learn modern web tools and best practices through
           personal projects and self-study.
         </p>
-        <div className="flex justify-between">
-          <button className="border rounded-sm border-white bg-zinc-700 mt-3 w-3xs hover:bg-[#242424] hover:cursor-pointer p-1">
+        <div className="flex justify-between pt-3 [&_a]:p-1 text-center [&_a]:bg-zinc-900 [&_a]:border [&_a]:rounded-sm [&_a]:border-white [&_a]:w-3xs [&_a]:hover:bg-[#242424] [&_a]:hover:cursor-pointer">
+          <a href={cv} target="_blank">
             CV
-          </button>
-          <button className="border rounded-sm border-white bg-zinc-700 mt-3 w-3xs hover:bg-[#242424] hover:cursor-pointer">
-            Contact Me
-          </button>
+          </a>
+          <a href="#contact">Contact Me</a>
         </div>
       </div>
     </div>
