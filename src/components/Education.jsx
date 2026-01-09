@@ -13,7 +13,7 @@ function Education() {
           <li>GPA: 3.60</li>
         </ul>
       </div>
-      <div className="w-2xl grid gap-10 text-justify">
+      <div className="w-2xl grid gap-10 text-justify p-3 border border-transparent rounded-md hover:border-white transition-color duration-700">
         <p>
           I graduated from Universitas Islam Indonesia with a degree in
           Informatics. During my studies, I built a strong foundation in web
