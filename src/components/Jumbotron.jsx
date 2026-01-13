@@ -1,6 +1,7 @@
 import imageJumbotron from "../assets/RMI_0895.JPG";
 import cv from "../assets/CV.pdf";
 import Squares from "./Squares";
+import DecryptedText from "./DecryptedText";
 
 function Jumbotron() {
   return (
@@ -15,7 +16,9 @@ function Jumbotron() {
           className="size-56 object-cover rounded-full"
         />
         <div className="flex flex-col self-center pl-5">
-          <h1 className="text-4xl font-bold">Muhammad Raihan</h1>
+          <h1 className="text-4xl font-bold">
+            <DecryptedText text="Muhammad Raihan" />
+          </h1>
           <p className="text-justify pt-3">
             I’m a Computer Science graduate who is interested in frontend
             development and building clean, responsive user interfaces. I mainly

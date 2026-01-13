@@ -1,3 +1,5 @@
+import DecryptedText from "./DecryptedText";
+
 const listNav = ["projects", "skills", "education", "contact"];
 
 function Navbar() {
@@ -14,7 +16,9 @@ function Navbar() {
       className="w-full bg-black text-white p-7 flex justify-between sticky top-0 font-bold z-1 opacity-85"
     >
       <ul className="flex gap-6 cursor-pointer">
-        <li onClick={() => window.scrollTo(0, 0)}>Raihan</li>
+        <li onClick={() => window.scrollTo(0, 0)}>
+          <DecryptedText text="Muhammad Raihan" />
+        </li>
       </ul>
       <ul className="flex gap-6 ml-auto me-3">{listNavKanan}</ul>
     </nav>
