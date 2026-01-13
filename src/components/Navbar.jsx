@@ -1,8 +1,8 @@
 const listNav = ["projects", "skills", "education", "contact"];
 
 function Navbar() {
-  const listNavKanan = listNav.map((x) => (
-    <li>
+  const listNavKanan = listNav.map((x, index) => (
+    <li key={index}>
       <a href={`#${x}`}>{x.charAt(0).toUpperCase() + x.slice(1)}</a>
     </li>
   ));
