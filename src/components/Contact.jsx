@@ -1,9 +1,6 @@
 function Contact() {
   return (
-    <div
-      id="contact"
-      className="flex flex-col items-center bg-zinc-950 pt-10 pb-10"
-    >
+    <div id="contact" className="flex flex-col items-center pt-10 pb-10">
       <div>
         <h4 className="text-2xl font-bold mb-5 me-15">Get In Touch With Me</h4>
       </div>

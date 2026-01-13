@@ -8,7 +8,7 @@ function Jumbotron() {
       <div className="absolute z-0 inset-0">
         <Squares size={35} speed={0.6} />
       </div>
-      <div className="relative flex m-auto mt-35 p-3 w-4xl border border-transparent rounded-md hover:border-white transition-color duration-700 bg-zinc-900">
+      <div className="relative flex m-auto mt-35 p-3 w-4xl border border-transparent rounded-md hover:border-white transition-color duration-700 bg-black">
         <img
           src={imageJumbotron}
           alt="gambar profil"
