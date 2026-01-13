@@ -1,6 +1,6 @@
 import ProjectsCard from "./ProjectsCard";
 import BPAKMUII from "../assets/bpakm.uii.png";
-import splitEase from "../assets/splitEase.png";
+import splitEase from "../assets/SplitEase.png";
 import movieShelf from "../assets/MovieShelf.png";
 import LetterGlitch from "./Squares";
 
