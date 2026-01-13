@@ -2,11 +2,12 @@ import ProjectsCard from "./ProjectsCard";
 import BPAKMUII from "../assets/bpakm.uii.png";
 import splitEase from "../assets/splitEase.png";
 import movieShelf from "../assets/MovieShelf.png";
+import LetterGlitch from "./Squares";
 
 function Projects() {
   return (
     //bg-gradient-to-r from-white to-zinc-900 to-50%
-    <div id="projects" className="mt-40  bg-zinc-900 p-5 pt-20 pb-20">
+    <div id="projects" className="p-5 pt-20 pb-20">
       <h3 className="text-center font-bold text-3xl mb-10">My Projects</h3>
       <div className="grid grid-cols-2">
         <ProjectsCard
