@@ -2,7 +2,7 @@ function Education() {
   return (
     <div
       id="education"
-      className="flex justify-between items-center bg-zinc-900 p-20"
+      className="flex justify-between items-center bg-black p-20"
     >
       <div>
         <h3 className="text-3xl font-bold mb-5 w-xl">My Education</h3>
