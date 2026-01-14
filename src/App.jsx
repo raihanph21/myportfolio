@@ -17,6 +17,8 @@ function App() {
       img: BPAKMUII,
       alt: "Thumbnail BPAKM UII",
       name: "BPAKM UII",
+      github: "#",
+      demo: "https://bpakm.uii.ac.id/",
       description:
         "This was a paid group project to rebuild the BPAKM UII website. The project was developed using WordPress by a team of four members, including myself, with each person responsible for building two to three pages. Throughout the process, we ensured that the design and features closely matched the previous website, that the site was fully mobile-responsive, and that all BPAKM UII requirements were met.",
     },
@@ -25,6 +27,8 @@ function App() {
       img: BPAKMUII,
       alt: "Thumbnail Mini LMS",
       name: "Mini LMS",
+      github: "https://github.com/RezaPahlevi1/lms-course",
+      demo: "#",
       description:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo architecto numquam dolores beatae aperiam. Modi, cupiditate quasi vitae mollitia nobis magnam rem iste fuga eveniet quae corporis, unde minus ipsa, maxime fugiat voluptates velit reiciendis!",
     },
@@ -33,6 +37,8 @@ function App() {
       img: splitEase,
       alt: "Thumbnail Split Ease",
       name: "Split Ease",
+      github: "https://github.com/raihanph21/splitEase",
+      demo: "https://split-ease-web-app.vercel.app/",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis fuga quo non ipsa laboriosam eligendi inventore accusantium quidem tenetur officia, dignissimos velit provident dolorum ipsum cumque facere harum? Deleniti quisquam rerum pariatur ex vitae mollitia a ut veritatis fuga voluptas.",
     },
@@ -41,6 +47,8 @@ function App() {
       img: movieShelf,
       alt: "Thumbnail Movie Shelf",
       name: "Movie Shelf",
+      github: "https://github.com/raihanph21/movieShelf",
+      demo: "https://movie-shelf-web-app.vercel.app/",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa fugit eius perferendis repellendus iste quos quam omnis vel praesentium magni asperiores pariatur, eos laboriosam nam necessitatibus recusandae accusamus veritatis consequuntur animi porro! Consequatur magni corrupti aliquid sapiente rerum doloribus distinctio, corporis ea tempore, ullam similique odio in voluptatum aliquam provident autem, tenetur minima libero culpa reprehenderit ducimus.",
     },
