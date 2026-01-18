@@ -31,7 +31,7 @@ function Skills() {
     <div
       key={index}
       style={{ "--skill-color": skills.color }}
-      className="flex flex-col items-center border-2 border-transparent rounded-md hover:border-(--skill-color) transition-color duration-700 p-3"
+      className="flex flex-col items-center border-2 border-(--skill-color) lg:border-transparent rounded-xl hover:border-(--skill-color) transition-color duration-700 p-3"
     >
       <div style={{ color: "var(--skill-color)" }} className="*:size-20">
         {skills.icon}
@@ -45,13 +45,16 @@ function Skills() {
   return (
     <div
       id="skills"
-      className="flex justify-between items-center mt-20 mb-20 p-20"
+      className="text-center p-5 lg:text-left lg:flex lg:justify-between lg:items-center lg:p-20"
+      // className="flex flex-col justify-between items-center mt-20 mb-20 p-20 w-full"
     >
-      <div className="w-xl">
+      <div className="w-full lg:w-2xl">
         <h3 className="font-bold text-3xl mb-5">My Tools and Skills</h3>
         <p>These are the tools i have used to build web applications.</p>
       </div>
-      <div className="grid gap-10 grid-cols-5 w-2xl">{renderSkills}</div>
+      <div className="mt-15 grid grid-cols-2 gap-5 mx-auto lg:grid-cols-5 lg:w-2xl lg:gap-10">
+        {renderSkills}
+      </div>
     </div>
   );
 }
