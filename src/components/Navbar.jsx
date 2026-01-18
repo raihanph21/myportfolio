@@ -17,7 +17,7 @@ function Navbar() {
     >
       <ul className="flex gap-6 cursor-pointer">
         <li onClick={() => window.scrollTo(0, 0)}>
-          <DecryptedText text="Muhammad Raihan" />
+          {/* <DecryptedText text="Muhammad Raihan" /> */}
         </li>
       </ul>
       <ul className="flex gap-6 ml-auto me-3">{listNavKanan}</ul>
