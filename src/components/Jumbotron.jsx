@@ -10,14 +10,14 @@ function Jumbotron() {
         <Squares size={35} speed={0.6} />
       </div>
       {/* <div className="relative flex m-auto mt-35 p-3 w-4xl border border-transparent rounded-md hover:border-white transition-color duration-700 bg-black">  */}
-      <div className="relative bg-black mt-30 p-6">
+      <div className="relative bg-black mt-30 p-6 lg:w-4xl lg:mx-auto lg:flex border border-transparent hover:border-white transition-colors duration-700 rounded-md lg:p-4">
         <img
           src={imageJumbotron}
           alt="gambar profil"
-          className="size-56 object-cover rounded-full mx-auto mt-2"
+          className="size-56 object-cover rounded-full mx-auto mt-2 lg:mr-5"
         />
         <div className="flex flex-col self-center">
-          <h1 className="text-4xl font-bold mt-2 mb-2 text-center">
+          <h1 className="text-4xl font-bold mt-2 mb-2 text-center lg:mb-0 lg:mt-0">
             <DecryptedText text="Muhammad Raihan" />
           </h1>
           <p className="text-justify pt-3">
@@ -27,7 +27,7 @@ function Jumbotron() {
             continuing to learn modern web tools and best practices through
             personal projects and self-study.
           </p>
-          <div className="flex justify-between mt-3 [&_a]:p-1 text-center [&_a]:bg-zinc-900 [&_a]:border [&_a]:rounded-sm [&_a]:border-white [&_a]:w-3xs [&_a]:hover:bg-[#242424] [&_a]:hover:cursor-pointer gap-20">
+          <div className="flex justify-between mt-3 [&_a]:p-1 text-center [&_a]:bg-zinc-900 [&_a]:border [&_a]:rounded-sm [&_a]:border-white [&_a]:w-3xs [&_a]:hover:bg-[#242424] [&_a]:hover:cursor-pointer gap-20 lg:mt-5">
             <a href={cv} target="_blank">
               CV
             </a>
