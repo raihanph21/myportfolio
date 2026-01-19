@@ -9,7 +9,7 @@ function Contact() {
 
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col gap-2 [&_input]:border [&_input]:rounded-sm [&_input]:p-2 [&_input]:w-xl"
+        className="flex flex-col gap-2 [&_input]:border [&_input]:rounded-sm [&_input]:p-2 w-full p-5 lg:w-xl"
       >
         <label htmlFor="name">What is your name?</label>
         <input id="name" name="name" />
@@ -23,7 +23,7 @@ function Contact() {
         <textarea
           id="message"
           name="message"
-          className="border rounded-sm p-2 w-xl h-32 resize-none"
+          className="border rounded-sm p-2 h-32 resize-none"
         />
         <ValidationError
           prefix="Message"
@@ -36,7 +36,7 @@ function Contact() {
           disabled={state.submitting}
           className="border rounded-sm self-end p-1 hover:cursor-pointer"
         >
-          Submit
+          Send
         </button>
       </form>
 

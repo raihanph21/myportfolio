@@ -3,10 +3,12 @@ function Education() {
     <div
       id="education"
       // className="flex flex-col items-center bg-black p-20">
-      className="p-5 lg:flex lg:items-center lg:p-20"
+      className="p-5 lg:flex lg:items-center lg:p-20 text-center lg:text-justify"
     >
       <div>
-        <h3 className="text-3xl font-bold mb-5 w-xl lg:w-2xl">My Education</h3>
+        <h3 className="text-3xl font-bold mb-5 w-full lg:w-2xl">
+          My Education
+        </h3>
         <ul>
           <li>Universitas Islam Indonesia</li>
           <li>Bachelor of Infomatics </li>
