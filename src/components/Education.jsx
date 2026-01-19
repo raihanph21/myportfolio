@@ -2,10 +2,11 @@ function Education() {
   return (
     <div
       id="education"
-      className="flex justify-between items-center bg-black p-20"
+      // className="flex flex-col items-center bg-black p-20">
+      className="p-5 lg:flex lg:items-center lg:p-20"
     >
       <div>
-        <h3 className="text-3xl font-bold mb-5 w-xl">My Education</h3>
+        <h3 className="text-3xl font-bold mb-5 w-xl lg:w-2xl">My Education</h3>
         <ul>
           <li>Universitas Islam Indonesia</li>
           <li>Bachelor of Infomatics </li>
@@ -13,7 +14,7 @@ function Education() {
           <li>GPA: 3.60</li>
         </ul>
       </div>
-      <div className="w-2xl grid gap-10 text-justify p-3 border border-transparent rounded-md hover:border-white transition-color duration-700">
+      <div className="w-full mt-10 p-5 grid gap-5 text-justify border border-white rounded-md hover:border-white transition-color duration-700 lg:gap-10 lg:w-2xl">
         <p>
           I graduated from Universitas Islam Indonesia with a degree in
           Informatics. During my studies, I built a strong foundation in web
