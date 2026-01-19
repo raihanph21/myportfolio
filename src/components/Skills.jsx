@@ -45,14 +45,14 @@ function Skills() {
   return (
     <div
       id="skills"
-      className="text-center p-5 lg:text-left lg:flex lg:justify-between lg:items-center lg:p-20"
+      className="text-center p-5 lg:text-left lg:flex lg:justify-around lg:items-center lg:p-20"
       // className="flex flex-col justify-between items-center mt-20 mb-20 p-20 w-full"
     >
       <div className="w-full lg:w-2xl">
         <h3 className="font-bold text-3xl mb-5">My Tools and Skills</h3>
         <p>These are the tools i have used to build web applications.</p>
       </div>
-      <div className="mt-15 grid grid-cols-2 gap-5 mx-auto lg:grid-cols-5 lg:w-2xl lg:gap-10">
+      <div className="mt-15 grid grid-cols-2 gap-5  lg:grid-cols-5 lg:w-2xl lg:gap-10">
         {renderSkills}
       </div>
     </div>

@@ -3,7 +3,7 @@ function Education() {
     <div
       id="education"
       // className="flex flex-col items-center bg-black p-20">
-      className="p-5 lg:flex lg:items-center lg:p-20 text-center lg:text-justify"
+      className="p-5 lg:flex lg:justify-around lg:items-center lg:p-20 text-center lg:text-justify "
     >
       <div>
         <h3 className="text-3xl font-bold mb-5 w-full lg:w-2xl">
