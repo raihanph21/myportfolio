@@ -24,13 +24,13 @@ function App() {
     },
     {
       id: 2,
-      img: BPAKMUII,
+      img: {},
       alt: "Thumbnail Mini LMS",
       name: "Mini LMS",
       github: "https://github.com/RezaPahlevi1/lms-course",
       demo: "#",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo architecto numquam dolores beatae aperiam. Modi, cupiditate quasi vitae mollitia nobis magnam rem iste fuga eveniet quae corporis, unde minus ipsa, maxime fugiat voluptates velit reiciendis!",
+        "An interactive web-based platform designed to organize and present educational content in a structured way. Users can discover learning programs, review educator information, and access course materials through a clean and intuitive interface, reflecting the essential features of a learning management system.",
     },
     {
       id: 3,
@@ -40,7 +40,7 @@ function App() {
       github: "https://github.com/raihanph21/splitEase",
       demo: "https://split-ease-web-app.vercel.app/",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis fuga quo non ipsa laboriosam eligendi inventore accusantium quidem tenetur officia, dignissimos velit provident dolorum ipsum cumque facere harum? Deleniti quisquam rerum pariatur ex vitae mollitia a ut veritatis fuga voluptas.",
+        "A web-based application designed to help users split bills with friends by accurately calculating shared expenses. The platform simplifies cost distribution by allowing users to track individual contributions and determine how much each person owes.",
     },
     {
       id: 4,
@@ -50,7 +50,7 @@ function App() {
       github: "https://github.com/raihanph21/movieShelf",
       demo: "https://movie-shelf-web-app.vercel.app/",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa fugit eius perferendis repellendus iste quos quam omnis vel praesentium magni asperiores pariatur, eos laboriosam nam necessitatibus recusandae accusamus veritatis consequuntur animi porro! Consequatur magni corrupti aliquid sapiente rerum doloribus distinctio, corporis ea tempore, ullam similique odio in voluptatum aliquam provident autem, tenetur minima libero culpa reprehenderit ducimus.",
+        "MovieShelf is a web application that allows users to search for movies, rate them, and manage a personal watched list. Users can save movies they have watched, assign ratings based on their preferences, and remove movies from the list when needed, providing a simple and organized way to track and review watched content.",
     },
   ];
   return (
