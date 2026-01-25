@@ -5,7 +5,9 @@ function Contact() {
 
   return (
     <div id="contact" className="flex flex-col items-center pt-10 pb-10">
-      <h4 className="text-2xl font-bold mb-5">Get In Touch With Me</h4>
+      <h4 className="text-2xl font-bold mb-5">
+        Get In Touch With Me <span></span>
+      </h4>
 
       <form
         onSubmit={handleSubmit}
