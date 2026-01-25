@@ -18,6 +18,7 @@ function Education() {
       </div>
       <div className="w-full mt-10 p-5 grid gap-5 text-justify border border-white rounded-md hover:border-white transition-color duration-700 lg:gap-10 lg:w-2xl">
         <p>
+          <span></span>
           <span></span>I graduated from Universitas Islam Indonesia with a
           degree in Informatics. During my studies, I built a strong foundation
           in web development, learning core concepts of programming, design, and
