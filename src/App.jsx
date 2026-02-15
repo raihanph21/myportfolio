@@ -13,6 +13,7 @@ import movieShelf from "./assets/MovieShelf.png";
 function App() {
   const projects = [
     {
+      //
       id: 1,
       img: BPAKMUII,
       alt: "Thumbnail BPAKM UII",
